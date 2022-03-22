@@ -294,7 +294,7 @@ header h1 a img {
 
 .shopping-category h2 {
   color: #8B8B8B;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -330,9 +330,67 @@ header h1 a img {
 }
 
 /* shopping items section ends  */
+/* fitness section start  */
 
+.fitness-and-training {
+  position: relative;
+}
 
+.fitness-and-training .wrapper {
+  width: 69.8%;
+}
 
+.fitness-header {
+  font-size: 22px;
+  position: absolute;
+  top: 6%;
+  left: 12.3%;
+  color: #8B8B8B;
+  font-weight: bold;
+}
+
+.fitness-category-list {
+  padding: 32px 0 28px;
+  display: flex;
+  justify-content: space-between;
+  background: #EBEBEB;
+}
+
+.fitness-category-list li a {
+  color: #686268;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* fitness section end  */
+/* world of reebok start  */
+
+.the-world-of-reebok {
+  padding: 58px 0 61px;
+}
+
+.the-world-of-reebok h2 {
+  color: #8B8B8B;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.reebok-world {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reebok-content-title {
+  margin-top: 22px;
+  margin-left: 8.3%;
+  display: block;
+  color: #4A4A45;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* world of reebok end  */
 
 
 /*=================================
