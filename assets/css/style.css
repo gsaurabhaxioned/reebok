@@ -273,7 +273,63 @@ header h1 a img {
 }
 
 /* banner styling end  */
+/* shopping items section start   */
 
+.shopping-items {
+  padding: 63px 0 18px;
+}
+
+.shopping-items .wrapper {
+  display: flex;
+}
+
+.shopping-category {
+  margin-left: 8%;
+  flex-basis: 18%;
+}
+
+.shopping-category:first-child {
+  margin-left: 0;
+}
+
+.shopping-category h2 {
+  color: #8B8B8B;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.category-details {
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.shopping-category figure {
+  width: 97px;
+  height: 92px;
+  margin-left: 7.2%;
+}
+
+.category-list {
+  margin-top: -6px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.category-list li a {
+  color: #8B8B8B;
+  font-size: 14px;
+}
+
+.category-list li::before {
+  content: "\f105";
+  margin-right: 4px;
+  font-family: "fontAwesome";
+}
+
+/* shopping items section ends  */
 
 
 
