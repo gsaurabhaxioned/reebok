@@ -101,7 +101,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1519px;
-  width: 86%; 
+  width: 75.3%; 
   margin: 0 auto;
 }
 /*=================================
@@ -174,7 +174,105 @@ header h1 a img {
   main styling starts here
 =================================*/
 
+/* banner styling start  */
 
+.banner {
+  background-color: #000;
+}
+
+.banner-menus {
+  padding: 10px 0;
+  display: flex;
+  color: #fff;
+}
+
+.banner-menus li {
+  margin-left: 1.3%;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.banner-menus li:first-child {
+  margin-left: 0;
+}
+
+.banner-menus li:last-child {
+  margin-left: auto;
+}
+
+.banner-menus li::after {
+  content: "\f078";
+  margin-left: 6px;
+  font-family: "fontAwesome";
+  font-size: 9px;
+}
+
+.banner-image {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 16.8%;
+  right: 11%;
+}
+
+.banner h2 {
+  font-size: 48px;
+  letter-spacing: 18px;
+  text-align: right;
+}
+
+.text-bold {
+  letter-spacing: 4px;
+}
+
+.banner-content p {
+  margin-top: 4px;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 5px;
+}
+
+.banner-content h3 {
+  margin-right: 2%;
+  margin-top: 24px;
+  color: #991D29;
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+}
+
+.banner-buttons {
+  margin-top: 43px;
+}
+
+.banner-buttons li {
+  width: 46.5%;
+}
+
+.banner-buttons li a {
+  width: 100%;
+  padding: 7.3% 22.4%;
+  border: 2px solid #fff;
+  background: rgb(0,0,0,0.6);
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.banner-buttons li:last-child {
+  margin-left: 1.8%;
+}
+
+.flexweave {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* banner styling end  */
 
 
 
