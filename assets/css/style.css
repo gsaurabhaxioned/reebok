@@ -505,6 +505,7 @@ header h1 a img {
 
 .footer-bottom {
   padding: 46px 0 13px;
+  position: relative;
 }
 
 .footer-bottom .wrapper {
@@ -534,8 +535,8 @@ header h1 a img {
 
 .footer-tabs {
   position: absolute;
+  top: 56.7%;
   right: 5.4%;
-  bottom: 2%;
 }
 
  /*=================================
