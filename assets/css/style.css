@@ -283,7 +283,7 @@ header h1 a img {
 }
 
 .banner-menus {
-  padding: 10px 0;
+  padding: 8px 0;
   display: flex;
   color: #fff;
 }
@@ -370,7 +370,7 @@ header h1 a img {
 }
 
 .banner-buttons {
-  margin-top: 52px;
+  margin-top: 48px;
 }
 
 .banner-buttons li {
@@ -898,11 +898,13 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
   height: 59px;
 }
 
+.banner-menus-container {
+  display: none;
+}
+
 .banner-menus {
-  display: flex;
   flex-direction: column;
   row-gap: 10px;
-  display: none;
   background-color: #ffa500;
   padding: 10px;
 }
