@@ -6,33 +6,11 @@ $(document).ready(function () {
 });
 
 let title = document.querySelectorAll(".banner-menus li span");
-title.forEach(i=>{
-    i.addEventListener('click',function(){
-        title.forEach(i=>{
+title.forEach(i => {
+    i.addEventListener('click', function () {
+        title.forEach(i => {
             i.nextSibling.nextSibling.style.display = "none";
         })
-i.nextSibling.nextSibling.style.display = "flex";
+        i.nextSibling.nextSibling.style.display = "flex";
     })
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
