@@ -5,6 +5,13 @@ $(document).ready(function () {
     });
 });
 
+let title = document.querySelectorAll(".banner-menus li span");
+title.forEach(i=>{
+    i.addEventListener('click',function(){
+        this.nextSibling.style.display = "flex";
+    })
+})
+
 
 
 
