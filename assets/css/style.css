@@ -967,7 +967,12 @@ header h1 a img {
   white-space: nowrap;
 }
 
-.footer-bottom p a {
+.footer-bottom-line figure {
+  margin-left: 3px;
+}
+
+.footer-bottom-line p a {
+  color: #8b8b8b;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
@@ -977,10 +982,6 @@ header h1 a img {
 
 .footer-bottom-line p a:hover {
   color: #ffa500;
-}
-
-.footer-bottom-line p a {
-  color: #8b8b8b;
 }
 
 .footer-tabs {
@@ -1169,6 +1170,9 @@ header h1 a img {
     width: 20%;
   }
 
+  .footer-bottom-line figure {
+    margin-left: 0;
+  }
 }
 
 /*media query for 768px starts here*/
