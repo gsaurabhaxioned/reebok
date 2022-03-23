@@ -231,10 +231,11 @@ header h1 a img {
   font-size: 14px;
 }
 
-.cart {
+.cart-container {
   margin-left: 18%;
   position: relative;
 }
+
 
 .cart li a {
   color: #5F5D5D;
@@ -259,15 +260,15 @@ header h1 a img {
 }
 
 .item-numbers {
-  padding: 0% 12%;
+  padding: 5% 20%;
   border-radius: 100%;
   display: block;
   position: absolute;
-  right: -5px;
+  right: -17px;
   top: 0;
   background: #ff0000;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
@@ -282,6 +283,7 @@ header h1 a img {
 /* banner styling start  */
 
 .banner {
+  position: relative;
   background-color: #000;
 }
 
@@ -348,7 +350,9 @@ header h1 a img {
 .banner-menus li ul {
   padding: 10px;
   margin-top: 10px;
-  display: flex;
+  position: absolute;
+  top: 30;
+  z-index: 2;
   flex-direction: column;
   background-color: #ff0000;
   text-align: center;
@@ -703,7 +707,7 @@ header h1 a img {
   color: #ffa500;
 }
 .reebok-links {
-  padding: 47px 0;
+  padding: 47px 0 20px;
   background: #373833;
 }
 
@@ -762,7 +766,7 @@ header h1 a img {
 }
 
 .sign-up {
-  padding: 35px 0;
+  padding: 40px 0 32px;
   background: #42423D;
   color: #fff;
 }
@@ -784,14 +788,15 @@ header h1 a img {
 
 .sign-up-button {
   width: 14.7%;
-  padding: 12px 10px;
+  padding: 7px 13px;
   border: navajowhite;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: #C22436;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
@@ -807,6 +812,7 @@ header h1 a img {
 .sign-up-button::after {
   content: "\f138";
   font-family: "fontAwesome";
+  font-size: 22px;
 }
 
 .footer-bottom {
@@ -859,21 +865,21 @@ header h1 a img {
 }
 
 .footer-tabs {
-  width: 7.3%;
+  width: 7.6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  top: 56.7%;
-  right: 3%;
+  top: 63.7%;
+  right: 2.5%;
 }
 
 .top {
-  padding: 12px;
+  padding: 11px 14px;
   display: inline-block;
-  font-size: 10px;
   background-color: #000;
   color: #fff;
+  font-size: 10px;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
@@ -890,6 +896,7 @@ header h1 a img {
   margin-bottom: 3px;
   display: block;
   font-family: "fontAwesome";
+  font-size: 13px;
   text-align: center;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
@@ -1028,6 +1035,14 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
   width: 88.3%;
 }
 
+.footer-tabs {
+  right: 7.5%;
+}
+
+.sign-up-button {
+  width: 20%;
+}
+
 }  
 
 /*media query for 768px starts here*/
@@ -1082,8 +1097,14 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
 .banner-menus {
   flex-direction: column;
   row-gap: 10px;
-  background-color: #ffa500;
+  background-color: #0000ff;
   padding: 10px;
+}
+
+.banner-menus li ul {
+  width: 50%;
+  margin: auto;
+  position: static;
 }
 
 .ham {
@@ -1105,12 +1126,31 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
 
 .reebok-links .wrapper {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   row-gap: 30px;
 }
 
 .banner-menus li:hover > ul {
   display: none;
+}
+
+.footer-tabs {
+  top: 53.7%;
+  right: 50.5%;
+}
+
+.footer-bottom-line p {
+  font-size: 12px;
+}
+
+.fitness-category-list li a {
+  font-size: 9px;
+}
+
+.sign-up-button {
+  width: 30%;
+  font-size: 12px;
 }
 
 }
