@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,17 +98,30 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -67,8 +156,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -79,8 +173,13 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -88,9 +187,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -101,9 +200,10 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1519px;
-  width: 75.3%; 
+  width: 75.3%;
   margin: 0 auto;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -136,7 +236,7 @@ header h1 a img {
 }
 
 .shipping {
-  margin-left: 20.5%; 
+  margin-left: 20.5%;
   color: #5F5D5D;
   font-weight: bold;
   font-size: 15px;
@@ -151,7 +251,7 @@ header h1 a img {
 
 .search-input {
   padding: 5.5% 23% 4.5% 9%;
-  border: 1px solid rgb(0,0,0,0.1);
+  border: 1px solid rgb(0, 0, 0, 0.1);
   background: #DBDBDB;
 }
 
@@ -221,8 +321,8 @@ header h1 a img {
 }
 
 .login li:nth-child(2) a::before {
-  margin-right: 11%;
   content: "\f007";
+  margin-right: 11%;
   font-size: 19px;
 }
 
@@ -274,7 +374,7 @@ header h1 a img {
 
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
@@ -335,7 +435,7 @@ header h1 a img {
   cursor: pointer;
 }
 
-.banner-menus li:hover > ul {
+.banner-menus li:hover>ul {
   display: flex;
 }
 
@@ -350,13 +450,13 @@ header h1 a img {
 .banner-menus li ul {
   padding: 10px;
   margin-top: 10px;
+  display: none;
   position: absolute;
-  top: 30;
   z-index: 2;
+  top: 30;
   flex-direction: column;
   background-color: #ff0000;
   text-align: center;
-  display: none;
 }
 
 
@@ -374,7 +474,7 @@ header h1 a img {
   color: #ffa500;
 }
 
-.banner-menus > li span::after {
+.banner-menus>li span::after {
   content: "\f078";
   margin-left: 6px;
   font-family: "fontAwesome";
@@ -433,17 +533,17 @@ header h1 a img {
   width: 291px;
   padding: 8.3% 19%;
   border: 2px solid #fff;
-  background: rgb(0,0,0,0.6);
+  background: rgb(0, 0, 0, 0.6);
   color: #fff;
-  box-sizing: border-box;
   font-size: 20px;
   font-weight: bold;
-  white-space: nowrap;
+  box-sizing: border-box;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
   -o-transition: all ease-in-out 0.5s;
   -moz-transition: all ease-in-out 0.5s;
+  white-space: nowrap;
 }
 
 .banner-buttons li a:hover {
@@ -466,7 +566,7 @@ header h1 a img {
   position: absolute;
   bottom: 6%;
   left: 12.8%;
-  background: rgb(0,0,0,0.6);
+  background: rgb(0, 0, 0, 0.6);
 }
 
 .flexweave li {
@@ -489,9 +589,10 @@ header h1 a img {
   padding-left: 3.7%;
   margin-left: 4%;
   border-left: 1px dotted #fff;
-  color: rgb(255,255,255,0.8);
+  color: rgb(255, 255, 255, 0.8);
   font-size: 13px;
 }
+
 .flexweave li:hover:before {
   color: #fff;
 }
@@ -592,11 +693,11 @@ header h1 a img {
 }
 
 .fitness-header {
-  font-size: 22px;
   position: absolute;
   top: 6%;
   left: 12.3%;
   color: #8B8B8B;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -671,7 +772,7 @@ header h1 a img {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
 .contact-section {
   background-color: #32332F;
@@ -706,6 +807,7 @@ header h1 a img {
 .contact-info li a:hover {
   color: #ffa500;
 }
+
 .reebok-links {
   padding: 47px 0 20px;
   background: #373833;
@@ -729,7 +831,7 @@ header h1 a img {
   margin-top: 3px;
   display: flex;
   flex-direction: column;
-  row-gap: 7px;
+  row-gap: 6px;
 }
 
 .reebok-list-item ul li a {
@@ -745,7 +847,7 @@ header h1 a img {
 }
 
 .reebok-list-container a {
-  color: rgb(255,255,255,0.8);
+  color: rgb(255, 255, 255, 0.8);
   font-size: 13px;
 }
 
@@ -754,7 +856,7 @@ header h1 a img {
 }
 
 .reebok-list-container:nth-child(3) {
-  margin-left: 12.3%;
+  margin-left: 13.7%;
 }
 
 .reebok-list-container:nth-child(4) {
@@ -797,7 +899,7 @@ header h1 a img {
 
 .sign-up-button {
   width: 14.7%;
-  padding: 7px 13px;
+  padding: 7px 13px 8px;
   border: navajowhite;
   border-radius: 8px;
   display: flex;
@@ -944,16 +1046,17 @@ header h1 a img {
   color: #ffa500;
 }
 
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 
 /*media query for 1440px starts here*/
 @media only screen and (max-width: 1440px) {
-  
-  header .wrapper,.shopping-items .wrapper {
+
+  header .wrapper,
+  .shopping-items .wrapper {
     width: 88.3%;
   }
 
@@ -965,9 +1068,9 @@ header h1 a img {
     left: 1%;
   }
 
- } 
+}
 
- /*media query for 1024px starts here*/
+/*media query for 1024px starts here*/
 @media only screen and (max-width: 1024px) {
   .shopping-items .wrapper {
     flex-wrap: wrap;
@@ -991,176 +1094,182 @@ header h1 a img {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
-header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
-  flex-direction: column;
-  row-gap: 20px;
-}
+  header .wrapper,
+  .shopping-items .wrapper,
+  .reebok-world,
+  .contact-info {
+    flex-direction: column;
+    row-gap: 20px;
+  }
 
-.header-left-items {
-  width: 100%;
-}
+  .header-left-items {
+    width: 100%;
+  }
 
-.header-right {
-  width: 50%;
-}
+  .header-right {
+    width: 50%;
+  }
 
-.banner-menus > li span {
-  font-size: 14px;
-}
+  .banner-menus>li span {
+    font-size: 14px;
+  }
 
-.banner .wrapper {
-  width: 88.3%;
-}
+  .banner .wrapper {
+    width: 88.3%;
+  }
 
-.banner-buttons {
-  margin-top: 22px;
-}
+  .banner-buttons {
+    margin-top: 22px;
+  }
 
-.banner-content figure {
-  height: 84px;
-}
+  .banner-content figure {
+    height: 84px;
+  }
 
-.banner-buttons li a {
-  width: auto;
-  padding: 8.3% 10%;
-  font-size: 15px;
-}
+  .banner-buttons li a {
+    width: auto;
+    padding: 8.3% 10%;
+    font-size: 15px;
+  }
 
-.fitness-category-list li a {
-  font-size: 12px;
-}
+  .fitness-category-list li a {
+    font-size: 12px;
+  }
 
-.contact-info li,.contact-info li:nth-child(2),.contact-info li:last-child {
-  padding: 0;
-  margin: 0;
-}
+  .contact-info li,
+  .contact-info li:nth-child(2),
+  .contact-info li:last-child {
+    padding: 0;
+    margin: 0;
+  }
 
-.footer-bottom-line {
-  flex-direction: column;
-  row-gap: 10px;
-}
+  .footer-bottom-line {
+    flex-direction: column;
+    row-gap: 10px;
+  }
 
-.footer-bottom .wrapper {
-  width: 88.3%;
-}
+  .footer-bottom .wrapper {
+    width: 88.3%;
+  }
 
-.footer-tabs {
-  right: 7.5%;
-}
+  .footer-tabs {
+    right: 7.5%;
+  }
 
-.sign-up-button {
-  width: 20%;
-}
+  .sign-up-button {
+    width: 20%;
+  }
 
-}  
+}
 
 /*media query for 768px starts here*/
 @media only screen and (max-width: 768px) {
 
-.header-left-items {
-  flex-direction: column;
-  row-gap: 20px;
-  align-items: flex-start;
-}
+  .header-left-items {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: flex-start;
+  }
 
-.header-right {
-  width: 100%;
-}
+  .header-right {
+    width: 100%;
+  }
 
-.searchbar,.header-left-items span {
-  margin-left: 0;
-}
+  .searchbar,
+  .header-left-items span {
+    margin-left: 0;
+  }
 
-.banner-image figure {
-  height: 195px;
-}
+  .banner-image figure {
+    height: 195px;
+  }
 
-.banner-content {
-  top: 5.8%;
-  right: 0;
-}
+  .banner-content {
+    top: 5.8%;
+    right: 0;
+  }
 
-.banner-buttons {
-  margin-top: 22px;
-}
+  .banner-buttons {
+    margin-top: 22px;
+  }
 
-.banner-buttons li a {
-  width: auto;
-  padding: 8.3% 10%;
-  font-size: 11px;
-}
+  .banner-buttons li a {
+    width: auto;
+    padding: 8.3% 10%;
+    font-size: 11px;
+  }
 
-.banner-buttons li:last-child {
-  margin-left: 3.2%;
-}
+  .banner-buttons li:last-child {
+    margin-left: 3.2%;
+  }
 
-.banner-content figure {
-  width: 78%;
-  height: 59px;
-}
+  .banner-content figure {
+    width: 78%;
+    height: 59px;
+  }
 
-.banner-menus-container {
-  display: none;
-}
+  .banner-menus-container {
+    display: none;
+  }
 
-.banner-menus {
-  flex-direction: column;
-  row-gap: 10px;
-  background-color: #0000ff;
-  padding: 10px;
-}
+  .banner-menus {
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #0000ff;
+  }
 
-.banner-menus li ul {
-  width: 50%;
-  margin: auto;
-  position: static;
-}
+  .banner-menus li ul {
+    width: 50%;
+    margin: auto;
+    position: static;
+  }
 
-.ham {
-  display: block;
-}
+  .ham {
+    display: block;
+  }
 
-.banner-menus li:last-child {
-  margin-left: 0;
-}
+  .banner-menus li:last-child {
+    margin-left: 0;
+  }
 
-.footer-bottom-images figure {
-  width: 46px;
-  height: 100px;
-}
+  .footer-bottom-images figure {
+    width: 46px;
+    height: 100px;
+  }
 
-.footer-bottom .wrapper {
-  width: 88.3%;
-}
+  .footer-bottom .wrapper {
+    width: 88.3%;
+  }
 
-.reebok-links .wrapper {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  row-gap: 30px;
-}
+  .reebok-links .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
 
-.banner-menus li:hover > ul {
-  display: none;
-}
+  .banner-menus li:hover>ul {
+    display: none;
+  }
 
-.footer-tabs {
-  top: 53.7%;
-  right: 50.5%;
-}
+  .footer-tabs {
+    top: 53.7%;
+    right: 50.5%;
+  }
 
-.footer-bottom-line p {
-  font-size: 12px;
-}
+  .footer-bottom-line p {
+    font-size: 12px;
+  }
 
-.fitness-category-list li a {
-  font-size: 9px;
-}
+  .fitness-category-list li a {
+    font-size: 9px;
+  }
 
-.sign-up-button {
-  width: 30%;
-  font-size: 12px;
-}
+  .sign-up-button {
+    width: 30%;
+    font-size: 12px;
+  }
 
 }
 
@@ -1170,5 +1279,5 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
   .fitness-category-list li a {
     font-size: 7px;
   }
-  
+
 }
