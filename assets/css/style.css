@@ -155,6 +155,15 @@ header h1 a img {
 .search-button {
   padding: 7px 0 6px;
   text-indent: -9999px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.search-button:hover {
+  background-color: #ffa500;
 }
 
 .search-button::before {
@@ -166,11 +175,38 @@ header h1 a img {
 
 .header-right {
   display: flex;
-  align-items: center
+  align-items: center;
+  position: relative;
+}
+
+.login li:nth-child(1) a::before {
+  content: "\f005";
+  font-family: "fontAwesome";
+}
+
+.login li:nth-child(2) a::before {
+  content: "\f007";
+  font-family: "fontAwesome";
+}
+
+.cart li a {
+  text-indent: -9999px;
+}
+
+.cart li a::before {
+  content: "\f07a";
+  font-family: "fontAwesome";
+  font-size: 33px;
+  float: right;
+  text-indent: 0;
 }
 
 .item-numbers {
   position: absolute;
+  right: 0;
+  top: 0;
+  background: #ff0000;
+  color: white;
 }
 
 
@@ -186,6 +222,25 @@ header h1 a img {
 
 .banner {
   background-color: #000;
+}
+
+.ham,
+.cross {
+  display: none;
+  text-indent: -9999px;
+}
+
+.ham::before,
+.cross::before {
+  content: "\f0c9";
+  color: #000;
+  float: right;
+  font-family: "fontAwesome";
+  text-indent: 0;
+}
+
+.cross::before {
+  content: "\f00d";
 }
 
 .banner-menus {
@@ -276,8 +331,34 @@ header h1 a img {
 
 .flexweave {
   position: absolute;
-  top: 0;
-  left: 0;
+  left: 12.8%;
+  bottom: 6%;
+}
+
+.flexweave li {
+  text-indent: -9999px;
+}
+
+.flexweave li:last-child {
+  text-indent: 0;
+}
+
+.flexweave li::before {
+  content: "\f111";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+}
+
+.flexweave li:first-child:before {
+  content: "\f04c";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+}
+
+.flexweave li:last-child:before {
+  content: "";
 }
 
 /* banner styling end  */
@@ -357,11 +438,14 @@ header h1 a img {
   font-weight: bold;
 }
 
+.fitness-category {
+  background: #EBEBEB;
+}
+
 .fitness-category-list {
   padding: 32px 0 28px;
   display: flex;
   justify-content: space-between;
-  background: #EBEBEB;
 }
 
 .fitness-category-list li a {
@@ -511,6 +595,11 @@ header h1 a img {
   font-size: 14px;
 }
 
+.sign-up-button::after {
+  content: "\f138";
+  font-family: "fontAwesome";
+}
+
 .footer-bottom {
   padding: 46px 0 13px;
   position: relative;
@@ -547,6 +636,29 @@ header h1 a img {
   right: 5.4%;
 }
 
+.top {
+  display: inline-block;
+}
+
+.top::before {
+  content: "\f0d8";
+  display: block;
+  font-family: "fontAwesome";
+  text-align: center;
+}
+
+.chat {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.chat::before {
+  content: "\f0e6";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+}
+
  /*=================================
   footer styling ends here
 =================================*/ 
@@ -555,6 +667,9 @@ header h1 a img {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
-
+header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
+  flex-direction: column;
+  row-gap: 20px;
+}
 
 }  
