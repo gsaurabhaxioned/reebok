@@ -733,17 +733,26 @@ header h1 a img {
 }
 
 .footer-tabs {
+  width: 7.3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   top: 56.7%;
-  right: 5.4%;
+  right: 3%;
 }
 
 .top {
+  padding: 12px;
   display: inline-block;
+  font-size: 10px;
+  background-color: #000;
+  color: #fff;
 }
 
 .top::before {
   content: "\f0d8";
+  margin-bottom: 3px;
   display: block;
   font-family: "fontAwesome";
   text-align: center;
@@ -758,7 +767,9 @@ header h1 a img {
   content: "\f0e6";
   font-family: "fontAwesome";
   float: right;
+  font-size: 59px;
   text-indent: 0;
+
 }
 
  /*=================================
