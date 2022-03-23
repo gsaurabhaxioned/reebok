@@ -657,7 +657,7 @@ header h1 a img {
 }
 
 .sign-up {
-  padding: 41px 0;
+  padding: 35px 0;
   background: #42423D;
   color: #fff;
 }
@@ -678,12 +678,16 @@ header h1 a img {
 }
 
 .sign-up-button {
+  width: 14.7%;
   padding: 12px 10px;
-  background: #C22436;
-  color: #fff;
   border: navajowhite;
   border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  background: #C22436;
+  color: #fff;
   font-size: 14px;
+  
 }
 
 .sign-up-button::after {
@@ -694,6 +698,7 @@ header h1 a img {
 .footer-bottom {
   padding: 46px 0 13px;
   position: relative;
+  background: #373833;
 }
 
 .footer-bottom .wrapper {
@@ -707,11 +712,12 @@ header h1 a img {
 }
 
 .footer-bottom-images figure {
-  width: 46px;
+  width: 82px;
+  height: 46px;
 }
 
 .footer-bottom-line {
-  margin-top: 108px;
+  margin-top: 103px;
   margin-left: 6.5%;
   display: flex;
   align-items: center;
@@ -849,6 +855,10 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
 .footer-bottom-line {
   flex-direction: column;
   row-gap: 10px;
+}
+
+.footer-bottom .wrapper {
+  width: 88.3%;
 }
 
 }  
