@@ -135,8 +135,8 @@ header h1 a img {
   align-items: center
 }
 
-.header-left-items span {
-  margin-left: 20.5%;
+.header-left-items a:nth-child(2) {
+  margin-left: 20.5%; 
   color: #5F5D5D;
   font-weight: bold;
   font-size: 15px;
