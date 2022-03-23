@@ -186,7 +186,6 @@ header h1 a img {
 }
 
 .header-right {
-  position: relative;
   display: flex;
   align-items: center;
   flex-basis: 23%;
@@ -221,6 +220,7 @@ header h1 a img {
 
 .cart {
   margin-left: 18%;
+  position: relative;
 }
 
 .cart li a {
@@ -237,15 +237,15 @@ header h1 a img {
 }
 
 .item-numbers {
-  padding: 1% 3%;
+  padding: 0% 12%;
   border-radius: 100%;
   display: block;
   position: absolute;
-  right: 7%;
+  right: -5px;
   top: 0;
   background: #ff0000;
   color: white;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 
@@ -315,6 +315,7 @@ header h1 a img {
   text-align: center;
   display: none;
 }
+
 
 .banner-menus li ul li a {
   color: #fff;
@@ -755,11 +756,21 @@ header h1 a img {
 
 /*media query starts*/
 
-/*media query for 1024px starts here*/
-@media only screen and (max-width: 1024px) {
-  .banner-content {
-    display: none;
+/*media query for 1440px starts here*/
+@media only screen and (max-width: 1440px) {
+  
+  header .wrapper {
+    width: 88.3%;
   }
+
+  .header-right {
+    flex-basis: 25%;
+  }
+
+  .flexweave {
+    left: 1%;
+  }
+
  } 
 
 /*media query for 995px starts here*/
