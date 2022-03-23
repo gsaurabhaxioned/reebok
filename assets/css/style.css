@@ -272,7 +272,7 @@ header h1 a img {
 .ham::before,
 .cross::before {
   content: "\f0c9";
-  color: #000;
+  color: #fff;
   float: right;
   font-family: "fontAwesome";
   text-indent: 0;
@@ -807,4 +807,135 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
   row-gap: 20px;
 }
 
+.header-left-items {
+  width: 100%;
+}
+
+.header-right {
+  width: 50%;
+}
+
+.banner-menus > li span {
+  font-size: 14px;
+}
+
+.banner .wrapper {
+  width: 88.3%;
+}
+
+.banner-buttons {
+  margin-top: 22px;
+}
+
+.banner-content figure {
+  height: 84px;
+}
+
+.banner-buttons li a {
+  width: auto;
+  padding: 8.3% 10%;
+  font-size: 15px;
+}
+
+.fitness-category-list li a {
+  font-size: 12px;
+}
+
+.contact-info li,.contact-info li:nth-child(2),.contact-info li:last-child {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom-line {
+  flex-direction: column;
+  row-gap: 10px;
+}
+
 }  
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+.header-left-items {
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+}
+
+.header-right {
+  width: 100%;
+}
+
+.searchbar,.header-left-items span {
+  margin-left: 0;
+}
+
+.banner-image figure {
+  height: 195px;
+}
+
+.banner-content {
+  top: 5.8%;
+  right: 0;
+}
+
+.banner-buttons {
+  margin-top: 22px;
+}
+
+.banner-buttons li a {
+  width: auto;
+  padding: 8.3% 10%;
+  font-size: 11px;
+}
+
+.banner-buttons li:last-child {
+  margin-left: 3.2%;
+}
+
+.banner-content figure {
+  width: 78%;
+  height: 59px;
+}
+
+.banner-menus {
+  flex-direction: column;
+  row-gap: 10px;
+  display: none;
+  background-color: #ffa500;
+  padding: 10px;
+}
+
+.ham {
+  display: block;
+}
+
+.banner-menus li:last-child {
+  margin-left: 0;
+}
+
+.footer-bottom-images figure {
+  width: 46px;
+  height: 100px;
+}
+
+.footer-bottom .wrapper {
+  width: 88.3%;
+}
+
+.reebok-links .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+}
+
+/*media query for 480px starts here*/
+@media only screen and (max-width: 480px) {
+
+  .fitness-category-list li a {
+    font-size: 7px;
+  }
+  
+}
