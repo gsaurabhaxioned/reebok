@@ -294,6 +294,10 @@ header h1 a img {
   white-space: nowrap;
 }
 
+.banner-menus li:hover {
+  cursor: pointer;
+}
+
 .banner-menus li:hover > ul {
   display: flex;
 }
@@ -951,6 +955,10 @@ header .wrapper,.shopping-items .wrapper,.reebok-world,.contact-info {
   display: flex;
   flex-wrap: wrap;
   row-gap: 30px;
+}
+
+.banner-menus li:hover > ul {
+  display: none;
 }
 
 }
