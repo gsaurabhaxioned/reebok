@@ -589,6 +589,7 @@ header h1 a img {
 .flexweave li::before {
   content: "\f111";
   color: #989898;
+  margin-top: 1px;
   font-family: "fontAwesome";
   float: right;
   text-indent: 0;
@@ -603,6 +604,15 @@ header h1 a img {
 
 .flexweave li a {
   color: rgb(255, 255, 255, 0.8);
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.flexweave li a:hover {
+  color: #ffa500;
 }
 
 .flexweave li:hover:before {
@@ -611,7 +621,7 @@ header h1 a img {
 
 .flexweave li:first-child:before {
   content: "\f04c";
-  margin-top: 3px;
+  margin-top: 5px;
   color: #fff;
   float: right;
   font-family: "fontAwesome";
@@ -621,6 +631,14 @@ header h1 a img {
 
 .flexweave li:nth-child(2) {
   margin-left: 3.2%;
+}
+
+.flexweave li:nth-child(3) {
+  margin-left: 1%;
+}
+
+.flexweave li:nth-child(4) {
+  margin-left: 1%;
 }
 
 .flexweave li:last-child:before {
