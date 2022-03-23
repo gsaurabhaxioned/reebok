@@ -154,6 +154,14 @@ header h1 a img {
 
 .search-button {
   padding: 7px 0 6px;
+  text-indent: -9999px;
+}
+
+.search-button::before {
+  content: "\f002";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
 }
 
 .header-right {
