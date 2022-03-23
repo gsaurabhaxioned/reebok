@@ -198,6 +198,19 @@ header h1 a img {
   flex-basis: 54%;
 }
 
+.login li a {
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.login li a:hover {
+  color: #ffa500;
+}
+
+
 .login li a::before {
   margin-right: 6%;
   font-family: "fontAwesome";
@@ -226,6 +239,15 @@ header h1 a img {
 .cart li a {
   color: #5F5D5D;
   text-indent: -9999px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.cart li a:hover {
+  color: #ffa500;
 }
 
 .cart li a::before {
@@ -294,6 +316,19 @@ header h1 a img {
   white-space: nowrap;
 }
 
+.banner-menus li span {
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.banner-menus li span:hover {
+  color: #ffa500;
+}
+
+
 .banner-menus li:hover {
   cursor: pointer;
 }
@@ -324,6 +359,15 @@ header h1 a img {
 .banner-menus li ul li a {
   color: #fff;
   text-align: center;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.banner-menus li ul li a:hover {
+  color: #ffa500;
 }
 
 .banner-menus > li span::after {
@@ -391,6 +435,16 @@ header h1 a img {
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.banner-buttons li a:hover {
+  background-color: #000;
+  color: #ffa500;
 }
 
 .banner-buttons li:last-child a {
@@ -505,6 +559,15 @@ header h1 a img {
 .category-list li a {
   color: #8B8B8B;
   font-size: 14px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.category-list li a:hover {
+  color: #ffa500;
 }
 
 .category-list li::before {
@@ -547,6 +610,15 @@ header h1 a img {
   color: #686268;
   font-size: 20px;
   font-weight: bold;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.fitness-category-list li a:hover {
+  color: #ffa500;
 }
 
 /* fitness section end  */
@@ -611,8 +683,16 @@ header h1 a img {
   color: #fff;
   font-size: 15px;
   font-weight: bold;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
 }
 
+.contact-info li a:hover {
+  color: #ffa500;
+}
 .reebok-links {
   padding: 47px 0;
   background: #373833;
@@ -637,6 +717,18 @@ header h1 a img {
   display: flex;
   flex-direction: column;
   row-gap: 7px;
+}
+
+.reebok-list-item ul li a {
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.reebok-list-item ul li a:hover {
+  color: #ffa500;
 }
 
 .reebok-list-container a {
@@ -691,7 +783,16 @@ header h1 a img {
   background: #C22436;
   color: #fff;
   font-size: 14px;
-  
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.sign-up-button:hover {
+  background-color: #000;
+  color: #ffa500;
 }
 
 .sign-up-button::after {
@@ -732,6 +833,18 @@ header h1 a img {
   white-space: nowrap;
 }
 
+.footer-bottom p a {
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.footer-bottom-line p a:hover {
+  color: #ffa500;
+}
+
 .footer-bottom-line p a {
   color: #8b8b8b;
 }
@@ -752,6 +865,15 @@ header h1 a img {
   font-size: 10px;
   background-color: #000;
   color: #fff;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.top:hover {
+  color: #ffa500;
 }
 
 .top::before {
@@ -760,6 +882,19 @@ header h1 a img {
   display: block;
   font-family: "fontAwesome";
   text-align: center;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.top:hover:before {
+  color: #ffa500;
+}
+
+.footer-bottom-line p a:hover {
+  color: #ffa500;
 }
 
 .chat {
@@ -773,7 +908,15 @@ header h1 a img {
   float: right;
   font-size: 59px;
   text-indent: 0;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
 
+.chat:hover:before {
+  color: #ffa500;
 }
 
  /*=================================
