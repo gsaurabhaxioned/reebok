@@ -322,7 +322,7 @@ header h1 a img {
   text-align: center;
 }
 
-.banner-menus > li::after {
+.banner-menus > li span::after {
   content: "\f078";
   margin-left: 6px;
   font-family: "fontAwesome";
@@ -706,6 +706,10 @@ header h1 a img {
   justify-content: space-between;
 }
 
+.footer-bottom-images figure {
+  width: 46px;
+}
+
 .footer-bottom-line {
   margin-top: 108px;
   margin-left: 6.5%;
@@ -715,6 +719,7 @@ header h1 a img {
 
 .footer-bottom-line p {
   color: #8b8b8b;
+  white-space: nowrap;
 }
 
 .footer-bottom-line p a {
@@ -759,7 +764,7 @@ header h1 a img {
 /*media query for 1440px starts here*/
 @media only screen and (max-width: 1440px) {
   
-  header .wrapper {
+  header .wrapper,.shopping-items .wrapper {
     width: 88.3%;
   }
 
@@ -772,6 +777,27 @@ header h1 a img {
   }
 
  } 
+
+ /*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  .shopping-items .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .shopping-category {
+    margin-left: 0;
+    flex-basis: 50%;
+  }
+
+  .category-details {
+    justify-content: space-evenly;
+  }
+
+  .banner-content {
+    top: 5.8%;
+    right: 8%;
+  }
+}
 
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
